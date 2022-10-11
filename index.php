@@ -169,7 +169,7 @@
           <a href="" class="button">BOOK US</a><!----leads to a google form------>
           </div>
           </div>
-          <div class="card">
+        <!---<div class="card">
             <div class="img-section">
             <img src="img/1-ied.jpg">
             </div>
@@ -178,9 +178,9 @@
             <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
             </div>
             <div class="blog-view">
-            <a href="1ied.html" class="button">READ MORE</a><!-----leads to 1-ied page-------->
+            <a href="1ied.html" class="button">READ MORE</a>
             </div>
-            </div>
+            </div>--->  
             <div class="card">
               <div class="img-section">
               <img src="img/lady.png">
