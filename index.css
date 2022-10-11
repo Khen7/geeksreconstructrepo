@@ -1,0 +1,990 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('navbar.css');
+@import url('footer.css');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif,'Open Sans', sans-serif;
+}
+/*---------banner section-------------------------*/
+
+#banner{
+    background-color: #725AC1;
+    color: #fff;
+    padding-top: 5%;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.container .row{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .row .col-md-6{
+    width: 50%;
+    height: 100%;
+}
+
+.container .row .text-center{
+    width: 50%;
+    height: 100%;
+}
+
+.promo-title{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.promo-title h1{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.sub-title{
+    font-size: 15px;
+    line-height: 2;
+}
+
+.bottom-img{
+    width: 100%;
+    background-color: #725AC1;
+}
+
+.col-md-6 .btn-primary{
+    width: 40%;
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #84C318;
+}
+
+.col-md-6 .btn-primary:hover{
+    background-color: rgb(96, 96, 238);
+    
+}
+
+
+/*---------about us section-------------------------*/
+
+#about-us{
+    width: 100%;
+    min-height: 150vh;
+    padding-top: 10px;
+}
+
+.intro{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro-p{
+    width: 45%;
+}
+
+.intro-img{
+    width: 45%;
+}
+
+img{
+    width: 100%;
+}
+
+.container-A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+    background: #f9f9f9;
+}
+
+.container-A .card{
+    position: relative;
+    width: 550px;
+    height: 300px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+                inset -5px -5px -5px rgba(255,255,255,0.5),
+                5px 5px 5px rgba(0,0,0,0.05),
+                -5px -5px -5px rgba(255,255,255,0.5);
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.container-A .card .box{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: #f9f9f9;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-A .card:hover .box{
+    transform: translateY(-50px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    background: linear-gradient(45deg,#b95ca4,#725AC1);
+    transition: 0.5s;
+}
+
+.container-A .card .box .content{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container-A .card .box .content h2{
+    text-align: center;
+    font-size: 3em;
+    padding-top: 10px;
+    color: black;
+}
+
+.container-A .card .box .content p{
+font-size: 1.2em;
+font-weight: 400;
+color: black;
+}
+
+.container-A .card:hover .box .content h2,
+.container-A .card:hover .box .content p{
+    color: #fff;
+    cursor: pointer;
+}
+
+#about-us .btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-color: #84C318;
+}
+
+#about-us .btn-primary:hover{
+    background-color: rgb(96, 96, 238);
+    
+}
+
+/*--------News section---------------*/
+.news-section{
+    width: 100%;
+    padding-top: 60px;
+    height: 250vh;
+}
+
+.news-section .section-content .title::before{
+    content: '';
+    background: #725AC1;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.news-section .section-content .title::after{
+    content: '';
+    background: #725AC1;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    display: block;
+    transform: translateY(0px);
+}
+
+
+.news-section .section-content{
+width: 85%;
+margin: 20px auto;
+}
+
+.news-section .section-content .title{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+.news-section .section-content .p{
+    font-size: 18px;
+    color: #6a6a6a;
+    margin-top: 20px; 
+}
+
+.news-section .section-content .cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    margin: 25px auto;
+    padding-bottom: 50px;
+}
+
+.news-section .section-content .cards .card{
+   width: 100%;
+   height: 650px;
+   background-color: #f7f7f7;
+   position: relative;
+   padding-bottom: 100px;
+}
+
+.news-section .section-content .cards .card img{
+    width: 100%;
+    height: auto;
+ }
+
+ .news-section .section-content .cards .card h4{
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+ }
+
+ .news-section .section-content .cards .card p{
+    padding: 10px;
+ }
+
+ .news-section .section-content .cards .card .blog-view{
+    height: 100%;
+ }
+
+ .news-section .section-content .cards .card .blog-view a{
+    width: 50%;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #84C318;
+    color: #fff;
+    position: absolute;
+    bottom: 5px;
+    left: 70px;
+     }
+
+ .news-section .section-content .cards .card a:hover{
+   background-color: rgb(96, 96, 238);
+   transition: 0.5s;
+ }
+ 
+ .news-section .section-content .button{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    box-shadow: none;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    background-color: #84C318;
+}
+
+/*--------team and sponsors section---------------*/
+.tands{
+    background-color: #f9f9f9;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.tands .team .title{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 35px;
+}
+
+.tands .team .title::before{
+    content: '';
+    background: #725AC1;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(48px);
+}
+
+.tands .team .title::after{
+    content: '';
+    background: #725AC1;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+    display: block;
+    transform: translateY(-27px);
+}
+
+.team-pics{
+    width: 1300px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+
+.pica{
+    background-color: #fff;
+}
+
+.team h2{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.text{
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.text h5{
+    font-weight: 500;
+}
+
+.sponsors{
+    padding-top: 40px;
+}
+
+.sponsors h2{
+    width: 30%;
+    margin: auto;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.sponsors-pics{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(200px, auto);
+    margin: auto;
+}
+
+.sponsors-pics img{
+  width: 50%;
+  margin: auto;
+}
+
+/*--------Contact section---------------*/
+#social-media{
+    width: 100%;
+    height: 260vh;
+} 
+.contact-box{   
+    width: 80%;
+    margin: auto;
+ }
+
+ .contact-box .title{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.contact-box h1{
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact-box .title::before{
+    content: '';
+    background: #725AC1;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(143px);
+}
+
+.contact-box .title::after{
+    content: '';
+    background: #725AC1;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    display: block;
+    transform: translateY(8px);
+}
+
+.contact-box h3{
+    width: 100%;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.contact1{
+    width: 70%;
+    height: 250px;
+    line-height: 1em;
+    margin: auto;
+    text-align: center;
+}
+
+.contact1 i{
+    font-size: 25px;
+    color: #725AC1;
+}
+
+.contact1 label{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.social i{
+    font-size: 35px;
+    padding: 20px;
+    color: #725AC1;
+}
+
+.social i:hover{
+    color: rgb(96, 96, 238);;
+    
+}
+
+.contact2{
+    padding-top: 150px;
+    height: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.contact2 form{
+    width: 70%;
+    margin: auto;
+    height: 350px;
+}
+
+form input{
+    padding: 10px 10px 10px 10px;
+    width: 60%;
+    height: 100%;
+    outline: none;
+    font-size: 18px;
+    background: none;
+    caret-color: #725AC1;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+}
+
+form input:focus{
+    border: 2px solid #725AC1;
+    margin: auto;
+}
+
+form input::placeholder{
+    color: #bfbfbf;
+    font-size: 17px;
+  }
+
+form textarea{
+    width: 60%;
+    outline: none;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    background: none;
+    caret-color: #725AC1;
+    border-radius: 5px;
+    border: 1px solid #bfbfbf;
+    border-bottom-width: 2px;
+    transition: all 0.2s ease;
+}
+
+form textarea::placeholder{
+    color: #bfbfbf;
+    font-size: 17px;
+  }
+
+form textarea:focus{
+    border: 2px solid #725AC1;
+}
+
+.contact-btn button{
+    margin: auto;
+}
+
+.contact-btn{
+    width: 30%;
+    box-shadow: none !important;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: #84C318;
+    color: #fff;
+    padding: 8px 25px;
+}
+
+.contact2 .contact-btn:hover{
+    background-color: rgb(96, 96, 238);
+}
+
+.map{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+padding-top: 130px;
+padding-bottom: 50px;
+}
+
+.locmap{
+    width:100%;
+    height:500px;
+    margin: auto;
+    text-align: center;
+    overflow:hidden;
+    background:none!important;
+}
+
+
+/*------------media querry---------------------*/
+/*------------large screens---------------------*/
+@media screen and (min-width: 1201px){ 
+    /*---------about us section-------------------------*/
+.container-A .card{
+    width: 420px;
+    height: 250px;
+}
+.container-A .card .box .content h2{
+    font-size: 2.5em;
+}
+
+.container-A .card .box .content p{
+font-size: 1em;
+font-weight: 400;
+}
+}
+
+/*------------desktop---------------------*/
+@media (max-width: 1200px) and (min-width: 1025px) {
+    /*---------nav list section-------------------------*/
+    .navbar-brand{
+        width: 200px;
+     }
+        .navbar-nav li a{
+            font-size: 14px;
+        }
+
+        /*---------banner section-------------------------*/
+    .promo-title{
+        font-size: 35px;
+    }
+    
+    #banner .btn-primary{
+        width: 45%;
+    }
+/*---------about us section-------------------------*/
+#about-us .title::before{
+    transform: translateY(5px);
+}
+
+#about-us .title::after{
+    transform: translateY(3px);
+}
+
+ .intro{
+    width: 900px;
+    font-size: 1em;
+}
+
+.intro-p{
+    width: 40%;
+}
+
+.intro-img{
+    width: 40%;
+}
+
+.container-A .card{
+    width: 350px;
+    height: 250px;
+}
+
+.container-A .card .box .content h2{
+    font-size: 2em;
+}
+
+.container-A .card .box .content p{
+font-size: 0.9em;
+font-weight: 400;
+}
+
+/*-----------news section-----------------------*/
+.news-section .section-content .title::before{
+    transform: translateY(55px);
+}
+
+.news-section .section-content .title::after{
+    transform: translateY(-5px);
+}
+
+.carousel-inner{
+    height: 320px;
+}
+
+/*-----------tands section-----------------------*/
+.tands .team .title{
+    width: 60%;
+}
+
+.tands .team .title::before{
+    transform: translateY(48px);
+}
+
+.tands .team .title::after{
+    transform: translateY(-27px);
+}
+.sponsors-pics{
+    width: 900px;
+    grid-auto-rows: minmax(70px, auto);
+  
+}
+
+.team-pics{
+    width: 900px;
+}
+
+/*-----------contact section-----------------------*/
+#social-media{
+    width: 100%;
+    margin: auto;
+}
+
+#social-media .contact-box .title::before{
+    transform: translateY(133px);
+}
+
+#social-media .contact-box .title::after{
+    transform: translateY(1px);
+}
+  .contact-box{
+    width: 80%;
+ }
+
+.contact2 form{
+    background-color: #000;
+}
+    }
+
+
+    /*---------laptops-------------------------*/
+    @media (max-width: 1024px) and (min-width: 769px){
+            /*---------nav list section-------------------------*/
+    .navbar-brand{
+        width: 200px;
+     }
+        .navbar-nav li a{
+            font-size: 14px;
+        }
+
+        /*---------banner section-------------------------*/
+    .promo-title h1{
+        font-size: 25px;
+    }
+    
+    #banner .btn-primary{
+        width: 45%;
+    }
+/*---------about us section-------------------------*/
+#about-us .title::before{
+    transform: translateY(50px);
+}
+
+#about-us .title::after{
+    transform: translateY(3px);
+}
+
+.intro{
+    width: 800px;
+    font-size: 1em;
+}
+
+.intro-p{
+    width: 35%;
+}
+.intro-img{
+    width: 34%;
+}
+
+img{
+    width: 100%;
+}
+
+.container-A .card{
+    width: 350px;
+    height: 250px;
+}
+
+.container-A .card .box .content h2{
+    font-size: 2em;
+}
+
+.container-A .card .box .content p{
+font-size: 0.9em;
+font-weight: 400;
+}
+
+/*-----------news section-----------------------*/
+.news-section .section-content .title::before{
+    transform: translateY(55px);
+}
+
+.news-section .section-content .title::after{
+    transform: translateY(-5px);
+}
+
+.carousel-inner{
+    height: 320px;
+}
+
+/*-----------tands section-----------------------*/
+.tands .team .title{
+    width: 60%;
+}
+
+.tands .team .title::before{
+    transform: translateY(48px);
+}
+
+.tands .team .title::after{
+    transform: translateY(-27px);
+}
+.sponsors-pics{
+    width: 900px;
+    grid-auto-rows: minmax(70px, auto);
+  
+}
+
+.team-pics{
+    width: 900px;
+}
+
+      /*-----------contact section-----------------------*/
+      #social-media{
+        width: 100%;
+        margin: auto;
+    }
+    
+    #social-media .contact-box .title::before{
+        transform: translateY(133px);
+    }
+    
+    #social-media .contact-box .title::after{
+        transform: translateY(1px);
+    }
+      .contact-box{
+        width: 80%;
+     }
+    
+    .contact2 form{
+        background-color: #000;
+    }
+    }
+    
+    @media (max-width: 767px) and (min-width: 425px) {
+        /*---------nav list section-------------------------*/
+.navbar-brand{
+    width: 200px;
+ }
+    .navbar-nav li a{
+        font-size: 15px;
+    }
+
+    /*---------banner section-------------------------*/
+    .promo-title{
+        font-size: 35px;
+    }
+    
+    #banner .btn-primary{
+        width: 45%;
+    }
+/*---------about us section-------------------------*/
+ .about-us p{
+     font-size: 16px;
+ }
+ 
+ .intro{
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-p{
+    width: 80%;
+}
+
+.intro-img{
+    width: 70%;
+}
+
+img{
+    width: 100%;
+}
+
+.team-pics{
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.sponsors-pics{
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1px;
+    margin: auto;
+}
+
+.sponsors-pics img{
+  width: 50%;
+  margin: auto;
+}
+
+  /*-----------contact section-----------------------*/
+  #social-media{
+    width: 60%;
+    margin: auto;
+}
+
+  .contact-box{
+    width: 50%;
+    margin: auto;
+ }
+
+ .contact1{
+    width: 70%;
+    text-align: center;
+}
+
+form textarea{
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+    }
+    
+    @media (max-width: 424px) and (min-width: 320px) {
+        /*---------nav list section-------------------------*/
+.navbar-brand{
+    width: 200px;
+ }
+    .navbar-nav li a{
+        font-size: 15px;
+    }
+
+    /*---------banner section-------------------------*/
+    .promo-title{
+        font-size: 35px;
+    }
+    
+    #banner .btn-primary{
+        width: 45%;
+    }
+/*---------about us section-------------------------*/
+ .about-us p{
+     font-size: 16px;
+ }
+ 
+ .intro{
+    width: 100%;
+    font-size: 1.2em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.intro-p{
+    width: 80%;
+}
+
+.intro-img{
+    width: 70%;
+}
+
+img{
+    width: 100%;
+}
+
+.team-pics{
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.sponsors-pics{
+    width: 100%;
+    height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1px;
+    margin: auto;
+}
+
+.sponsors-pics img{
+  width: 50%;
+  margin: auto;
+}
+
+  /*-----------contact section-----------------------*/
+  #social-media{
+    width: 60%;
+    margin: auto;
+}
+
+  .contact-box{
+    width: 50%;
+    margin: auto;
+ }
+
+ .contact1{
+    width: 70%;
+    text-align: center;
+}
+
+form textarea{
+    padding: 5px 5px 5px 5px;
+    width: 100%;
+}
+    }
