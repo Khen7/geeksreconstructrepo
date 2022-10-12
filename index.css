@@ -22,6 +22,20 @@ body{
     width: 100%;
     height: 100vh;
 }
+#scrollUp{
+    background: #ff5f13;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 40px;
+    color: #fff;
+    font-size: 0px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+}
+
 
 .container .row{
     margin: auto;
