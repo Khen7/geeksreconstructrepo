@@ -1,5 +1,5 @@
 <?php require('component/head.php'); ?>
-<?php include('component/nav.php'); ?>
+
 <!------------HOME section------------------>
 <section id="banner">
   <div class="container">
@@ -12,7 +12,7 @@
         <button type="button" class="btn btn-primary" href="private/auth/login.php">JOIN US</button>
         <!---this button should lead to a googlge registration form---->
       </div>
-      <div class=" text-center">
+      <div class="col-md-6 text-center">
         <img src="img/home2.png" class="img-fluid">
       </div>
     </div>
@@ -69,92 +69,99 @@
       <div class="title">
         <h1>WHAT WE DO</h1>
       </div>
-      <div class="cards">
-        <div class="card">
-          <div class="img-section">
-            <img src="img/LOGO 1.jpg">
+      <div class="cards row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="img-section">
+              <img src="img/LOGO 1.jpg">
+            </div>
+            <div calss="article">
+              <h4>FREE TRAINING</h4>
+              <p>This is the heart of the community, it is literaly the entry point to this community. We are committed to giving free and quality training to our clients. We offer training in different fields of IT. Our courses include;</p>
+              <ul>
+                <li>Basic Computing</li>
+                <li>Website development</li>
+                <li>Mobile Application development</li>
+                <li>Graphics design and Animations</li>
+                <li>Wordpress/Shopify/Wix</li>
+              </ul>
+            </div>
+            <div class="blog-view">
+              <a href="courses.html" class="button">READ MORE</a>
+              <!----leads to course page-->
+            </div>
           </div>
-          <div calss="article">
-            <h4>FREE TRAINING</h4>
-            <p>This is the heart of the community, it is literaly the entry point to this community. We are committed to giving free and quality training to our clients. We offer training in different fields of IT. Our courses include;</p>
-            <ul>
-              <li>Basic Computing</li>
-              <li>Website development</li>
-              <li>Mobile Application development</li>
-              <li>Graphics design and Animations</li>
-              <li>Wordpress/Shopify/Wix</li>
-            </ul>
+          <div class="card">
+            <div class="img-section">
+              <img src="img/LOGO 1.jpg">
+            </div>
+            <div calss="article">
+              <h4>GAYES</h4>
+              <p><strong>Geeklets Academy Youth entrepreneurship Suummit (GAYES)</strong> is a fun and interactive summit organized for our clients to teach them how to redirect their skills into entrepreneurship. Resource people will be invited for this summit and it will be organized at given times within every year </p>
+            </div>
+            <div class="blog-view">
+              <a href="gayes.html" class="button">READ MORE...</a>
+              <!----leads to gayes page-->
+            </div>
           </div>
-          <div class="blog-view">
-            <a href="courses.html" class="button">READ MORE</a>
-            <!----leads to course page-->
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-section">
-            <img src="img/LOGO 1.jpg">
-          </div>
-          <div calss="article">
-            <h4>GAYES</h4>
-            <p><strong>Geeklets Academy Youth entrepreneurship Suummit (GAYES)</strong> is a fun and interactive summit organized for our clients to teach them how to redirect their skills into entrepreneurship. Resource people will be invited for this summit and it will be organized at given times within every year </p>
-          </div>
-          <div class="blog-view">
-            <a href="gayes.html" class="button">READ MORE...</a>
-            <!----leads to gayes page-->
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-section">
-            <img src="img/mentor.png">
-          </div>
-          <div calss="article">
-            <h4>BOOM PROJECT</h4>
-            <p>The Boom Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
-          </div>
-          <div class="blog-view">
-            <a href="" class="button">BOOK US</a>
-            <!----leads to a google form------>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-section">
-            <img src="img/1-ied.jpg">
-          </div>
-          <div calss="article">
-            <h4>1-ied PROJECT</h4>
-            <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
-          </div>
-          <div class="blog-view">
-            <a href="1ied.html" class="button">READ MORE</a>
-            <!-----leads to 1-ied page-------->
+
+
+          <div class="card">
+            <div class="img-section">
+              <img src="img/mentor.png">
+            </div>
+            <div calss="article">
+              <h4>BOOM PROJECT</h4>
+              <p>The Boom Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
+            </div>
+            <div class="blog-view">
+              <a href="" class="button">BOOK US</a>
+              <!----leads to a google form------>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-section">
-            <img src="img/lady.png">
+        <div class=col-md-6>
+          <div class="card">
+            <div class="img-section">
+              <img src="img/1-ied.jpg">
+            </div>
+            <div calss="article">
+              <h4>1-ied PROJECT</h4>
+              <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
+            </div>
+            <div class="blog-view">
+              <a href="1ied.html" class="button">READ MORE</a>
+              <!-----leads to 1-ied page-------->
+            </div>
           </div>
-          <div calss="article">
-            <h4>THE LADY GEEK MOVEMENT</h4>
-            <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
+          <div class="card">
+            <div class="img-section">
+              <img src="img/lady.png">
+            </div>
+            <div calss="article">
+              <h4>THE LADY GEEK MOVEMENT</h4>
+              <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
+            </div>
+            <div class="blog-view">
+              <a href="lady.html" class="button">READ MORE...</a>
+              <!----leads to lady page form------->
+            </div>
           </div>
-          <div class="blog-view">
-            <a href="lady.html" class="button">READ MORE...</a>
-            <!----leads to lady page form------->
+          <div class="card">
+            <div class="img-section">
+              <img src="img/adapter.jpg">
+            </div>
+            <div calss="article">
+              <h4>ADAPTER PROGRAM</h4>
+              <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
+            </div>
+            <div class="blog-view">
+              <a href="adapter.html" class="button">READ MORE</a>
+              <!----leads to adapter page------>
+            </div>
           </div>
         </div>
-        <div class="card">
-          <div class="img-section">
-            <img src="img/adapter.jpg">
-          </div>
-          <div calss="article">
-            <h4>ADAPTER PROGRAM</h4>
-            <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
-          </div>
-          <div class="blog-view">
-            <a href="adapter.html" class="button">READ MORE</a>
-            <!----leads to adapter page------>
-          </div>
-        </div>
+
       </div>
     </div>
 
@@ -277,4 +284,5 @@
     <iframe class="locmap" src="https://maps.google.com/maps?q=ghana%20library%20authorithy%20winneba&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
   </div>
 </section>
+
 <?php require('component/footer.php'); ?>
