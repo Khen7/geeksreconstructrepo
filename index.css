@@ -95,10 +95,10 @@ body{
 }
 
 .intro{
-    width: 90%;
+    width: 100%;
     margin: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    flex: 1;
+    padding: 20px;
     font-size: 1.2em;
     font-weight: 400;
     display: flex;
@@ -108,10 +108,12 @@ body{
 
 .intro-p{
     width: 45%;
+    flex: 1;
 }
 
 .intro-img{
     width: 45%;
+    flex: 1;
 }
 
 img{
@@ -247,13 +249,13 @@ margin: 20px auto;
     margin-top: 20px; 
 }
 
-.news-section .section-content .cards{
+/* .news-section .section-content .cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     margin: 25px auto;
     padding-bottom: 50px;
-}
+} */
 
 .news-section .section-content .cards .card{
    width: 100%;
@@ -406,7 +408,7 @@ margin: 20px auto;
 /*--------Contact section---------------*/
 #social-media{
     width: 100%;
-    height: 260vh;
+    /* height: 260vh; */
 } 
 .contact-box{   
     width: 80%;
@@ -744,6 +746,7 @@ font-weight: 400;
 
 .intro-p{
     width: 35%;
+    flex: 1;
 }
 .intro-img{
     width: 34%;
@@ -806,6 +809,7 @@ font-weight: 400;
       #social-media{
         width: 100%;
         margin: auto;
+        height: 100%;
     }
     
     #social-media .contact-box .title::before{
