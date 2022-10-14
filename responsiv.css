@@ -1,0 +1,93 @@
+/* small screen */
+@media screen and (max-width:639px){
+.navbar-brand{
+    flex: 2;
+    position: sticky;
+    padding: 0;
+}
+.container{
+    padding: 0;
+    margin: auto;
+    width: 100%!important;
+    justify-content: center;
+    align-items: center;
+    width: 100%!important;
+}
+#banner .btn-primary {
+    margin: 0 5rem;
+}
+.text-center{
+    flex: 1;
+}
+.sub-title {
+    font-size: 0.9rem;
+}
+.promo-title h1{
+    text-align: center;
+}
+.intro{
+    text-align:unset;
+}
+.container-A .card .box{
+    position: unset;
+}
+.container-A .card .box .content {
+    font-size: 0.8rem;
+
+}
+.news-section {
+    padding-top:0;
+}
+.news-section .section-content .title {
+    width: 100%;
+}
+.news-section .section-content .cards {
+    display: flex;
+    flex-direction: role;
+    margin-top: 0.2em;
+}
+.news-section .section-content .cards .card {
+    height:unset;
+}
+.contact-box {
+    width: 100%!important;
+    margin: 0!important;
+}
+.contact-box .title {
+    margin: auto;
+    text-align: center;
+    width: 100%!important;
+    white-space: nowrap;
+}
+#social-media {
+    height: unset!important;
+    width: 100%!important;
+}
+    .contact1 {
+        width: 100%;
+        height:unset;
+        line-height:normal;
+        text-align: center;
+    }
+    .contact2 {
+        padding-top:0;
+        height:unset;
+        margin: auto;
+        text-align: center;
+}
+.contact2 form {
+    width: 100%;
+    margin:0;
+    height:unset;
+    padding: 0 0.5em;}
+ .map {
+    padding: 0!important;
+}
+/* <!----medium-----> */
+@media (max-width:1047px){
+
+}
+/*<!-----larger--->*/
+@media (max-width:1048px){
+
+}
