@@ -70,7 +70,7 @@
         <h1>WHAT WE DO</h1>
       </div>
       <div class="cards row">
-        <div class="col-md-6">
+        <div class="col-md-6 col-lg-6">
           <div class="card">
             <div class="img-section">
               <img src="img/LOGO 1.jpg">
@@ -120,7 +120,7 @@
             </div>
           </div>
         </div>
-        <div class=col-md-6>
+        <div class="col-md-6 col-lg-6">
           <div class="card">
             <div class="img-section">
               <img src="img/1-ied.jpg">
