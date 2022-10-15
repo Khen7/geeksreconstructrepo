@@ -117,10 +117,43 @@
 }
 }
 /* <!----medium-----> */
+@media (max-width:768px) {
+    .team-pics {
+        width: 100%!important;
+    }
+    .container-A {
+        flex-direction: column;
+    }
+}
 @media (max-width:1047px){
-
+    .news-section{
+        height: 100%;
+    }
+    .team-pics {
+        width: 100%!important;
+    }
+    .container-A {
+        flex-direction: column;
+    }
+    .news-section .section-content .cards .card{
+        height: unset;
+        margin: 1em 0 1em 0;
+    }
 }
 /*<!-----larger--->*/
-@media (max-width:1048px){
-
+@media (min-width:1048px){
+    #about-us .btn-primary{
+        width: 300px;
+        flex: unset;
+    }
+    #about-us{
+        min-height: unset;
+    }
+    .news-section {
+        height: unset;
+}
+.news-section .section-content .cards .card {
+    height: unset;
+    margin: 1em 0 1em 0;
+}
 }
