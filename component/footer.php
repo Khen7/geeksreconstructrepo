@@ -47,7 +47,7 @@
     -->
 
 <!--------smooth scroll----------------------->
-<script src="assets/js/index.js"></script>
+<script src="/index.js"></script>
 <script>
     var scroll = new SmoothScroll('a[href*="#"]');
 </script>

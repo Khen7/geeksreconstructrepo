@@ -4,5 +4,23 @@
     "bootstrap": "^5.2.2",
     "bootstrap-icons": "^1.9.1",
     "init": "^0.1.2"
-  }
+  },
+  "name": "geeksreconstruct",
+  "description": "we are restructuring de site as instructed by our lead developer, taking it 1 page at a time. the expected outlook of the home page is given here.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Khen7/geeksreconstructrepo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Khen7/geeksreconstructrepo/issues"
+  },
+  "homepage": "https://github.com/Khen7/geeksreconstructrepo#readme"
 }

@@ -75,19 +75,25 @@
             <img src="img/LOGO 1.jpg">
           </div>
           <div calss="article">
-            <h4>FREE TRAINING</h4>
-            <p>This is the heart of the community, it is literaly the entry point to this community. We are committed to giving free and quality training to our clients. We offer training in different fields of IT. Our courses include;</p>
-            <ul>
-              <li>Basic Computing</li>
-              <li>Website development</li>
-              <li>Mobile Application development</li>
-              <li>Graphics design and Animations</li>
-              <li>Wordpress/Shopify/Wix</li>
-            </ul>
+            <h4>ON-SITE TRAINING</h4>
+            <p>This is the heart of the community, it is literaly the entry point to this community. We are committed to giving free and quality training to our clients. We offer training in different fields of IT.</p>
           </div>
           <div class="blog-view">
-            <a href="courses.html" class="button">READ MORE</a>
+            <a href="courses.html" class="button">REGISTER</a>
             <!----leads to course page-->
+          </div>
+        </div>
+        <div class="card">
+          <div class="img-section">
+            <img src="img/mentor.png">
+          </div>
+          <div calss="article">
+            <h4>ONLINE TRAINING</h4>
+            <p>The Boom Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
+          </div>
+          <div class="blog-view">
+            <a href="" class="button">REGISTER</a>
+            <!----leads to a google form------>
           </div>
         </div>
         <div class="card">
@@ -105,23 +111,10 @@
         </div>
         <div class="card">
           <div class="img-section">
-            <img src="img/mentor.png">
-          </div>
-          <div calss="article">
-            <h4>BOOM PROJECT</h4>
-            <p>The Boom Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
-          </div>
-          <div class="blog-view">
-            <a href="" class="button">BOOK US</a>
-            <!----leads to a google form------>
-          </div>
-        </div>
-        <div class="card">
-          <div class="img-section">
             <img src="img/1-ied.jpg">
           </div>
           <div calss="article">
-            <h4>1-ied PROJECT</h4>
+            <h4>COOPER PROJECT</h4>
             <p>The Oval Project is leg of Geeklets Academy that is responsile for developing and managing websites, apps and other services for businesses to help them reach a wider audiance and oost their sales</p>
           </div>
           <div class="blog-view">
